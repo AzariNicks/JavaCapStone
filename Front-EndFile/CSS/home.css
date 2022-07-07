@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(27,27,27);
+}
+#BigMidBox{
+    height: 70%;
+    width: 70%;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 15%;
+    background-color: rgb(27,27,27);
+}
+#MidInputBox{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+#TextArea{
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor:default;
+    height: 950%;
+    width:100px;
+    top:-40px;
+    left:10px;
+    resize: none;
+    border:none;
+    color:white;
+    background-color: transparent;
+    /*Keep This Background color transparent or make it match with*/
+    /*the other color */
+    z-index: 4;
+    visibility: collapse;
+}
+#BigMidBox{
+    z-index: 4;
+    visibility: collapse;
+
+}
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+    visibility: collapse;
+
+    background-color: transparent;
+
+}
+
+/* #CodingInputBox{
+ height: 98%;
+ width:98%;
+ background-color: transparent;
+ border-color: transparent;
+ text-align: left;
+ padding: 0px 0px;
+
+ resize: none;
+ cursor: pointer;
+
+} */

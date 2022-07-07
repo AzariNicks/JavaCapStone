@@ -1,0 +1,108 @@
+body {
+    background-color:#1A1A1A !important;
+    text-align: center;
+    align-content: center;
+    color: rgb(241,255,218);
+}
+
+#RegBox{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    position:absolute;top: 20%;left: 30%;right: 0%;
+    flex-direction: column;
+    background-color:#2A2A2A;
+    padding: 10px;
+    text-align: center;
+    -ms-flex-item-align: center;
+    gap: 10%;
+    outline: 10px;
+     /*box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+}
+
+
+
+#Register{
+    position: relative;bottom: -66%;
+    color: #4853ca;
+    font-size:14px;
+    text-decoration: underline;
+}
+#username{
+    display: flex;
+    position:absolute;top: 10%;left: 25%;right: 20%;
+    flex-direction: column;
+    background-color:#1A1A1A !important;
+    color: rgb(255, 244, 244);
+    padding: 10px;
+    text-align: center;
+    -ms-flex-item-align: center;
+    gap: 10%;
+    outline: 10px;
+    /* box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+}
+#password{
+    display: flex;
+    position:absolute;top: 40%;left: 25%;right: 20%;
+    flex-direction: column;
+    background-color:#1A1A1A !important;
+    color: rgb(255, 244, 244);
+    padding: 10px;
+    text-align: center;
+    -ms-flex-item-align: center;
+    gap: 10%;
+    outline: 10px;
+    /* box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+}
+#submitLogin{
+    position:relative;top: 70%;left: 10%;right: 10%;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    -ms-flex-item-align: center;
+    gap: 10%;
+    outline: 10px;
+    /* box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+
+
+
+}
+#logbutton{
+    position: relative;
+    top: 60%;
+    background-color: rgb(6, 15, 41);
+    gap: 10%;
+    outline: 10px;
+    color: rgb(241,255,218);
+    /* box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+
+
+}
+#Message{
+    color: rgb(241,255,218);
+}
+#Link {
+
+position: relative;
+    bottom: -70%;
+
+}
+
+#Register{
+    position: relative;
+    top: 60%;
+    background-color: rgb(6, 15, 41);
+    gap: 10%;
+    outline: 10px;
+    color: rgb(241,255,218);
+    /* box-shadow: 10px 5px 5px #6d0010; */
+    border-radius: 30px;
+
+
+}

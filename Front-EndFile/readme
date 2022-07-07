@@ -1,0 +1,41 @@
+Okay so your we have end points
+and what they do so you can use it
+so as of right now we sent it to the localHost so all the end points
+
+---
+
+http://localhost:8080/api/v1/users/register
+{
+"username":"Anything",
+"password":"Anything"
+}
+This is how to register for the account it works perfectly your gonna need to give it two things
+a body and a password
+
+---
+
+http://localhost:8080/api/v1/users/login
+{
+"username":"Anything",
+"password":"Anything"
+}
+This is how you sign in it works perfectly
+it'll return things in the response
+try and see if you cant catch it with Java
+
+---
+
+http://localhost:8080/api/v1/notes/user/{userId}
+{
+
+        "body":"a bunch of words a whole lot of words my dude but yeah this is a body a big body "
+
+}
+This has the power to create a note the only thing it needs too and its just a body which is the paragraph and then at the same time it needs a User to plus it and thats it
+
+---
+
+http://localhost:8080/api/v1/notes/{noteId}
+Nothing but the id of the note is needed and boom is gone
+
+---
