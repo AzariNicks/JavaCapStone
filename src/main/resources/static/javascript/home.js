@@ -1,5 +1,7 @@
-const baseUrl = `http://localhost:8080/api/v1`
-const base = `http://localhost:8080`
+// const base = process.env.PORT || `http://localhost:8080`;
+const base = `https://codingjournal.herokuapp.com`
+const baseUrl = `${base}/api/v1`
+
 
 Amount = 0
 let DisableAddingNotes = false;
