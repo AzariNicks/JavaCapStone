@@ -1,2 +1,5 @@
-java -Dserver.port=$PORT
-web: java $JAVA_OPTS target/classes/com/Azari/codejournal/CodejournalApplication.class
+
+
+
+
+web: java -jar target/codejournal-0.0.1-SNAPSHOT.jar

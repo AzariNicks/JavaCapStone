@@ -9,6 +9,8 @@
 		<version>3.0.0-M3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
+
 	<groupId>com.Azari</groupId>
 	<artifactId>codejournal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
