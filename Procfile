@@ -1,2 +1,2 @@
-
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.Azari.codejournal.CodejournalApplication
+java -Dserver.port=$PORT
+web: java $JAVA_OPTS -cp target/classes:target/ com.Azari.codejournal.CodejournalApplication
