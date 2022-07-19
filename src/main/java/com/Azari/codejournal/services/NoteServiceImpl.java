@@ -7,6 +7,7 @@ import com.Azari.codejournal.repsoitories.CodingNoteRepository;
 import com.Azari.codejournal.repsoitories.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
