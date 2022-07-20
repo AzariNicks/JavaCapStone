@@ -35,7 +35,7 @@ logbutton.addEventListener("click", async () => {
             if (response.status === 200) {
                 alert(` You've Logged In to your account ${uservalue.value}`);
 
-                window.location = `${base}/Home.html`;
+                window.location = `${base}/home.html`;
                 document.cookie = `username=${response[2]}`
 
             } else if (response.status === 500) {
